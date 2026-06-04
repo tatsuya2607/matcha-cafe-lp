@@ -43,7 +43,8 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'meta' });
   const ogImage =
-    'https://images.unsplash.com/photo-1566373049939-704ea187ef98?w=1200&q=80&auto=format&fit=crop';
+    (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://matcha-cafe-lp.vercel.app') +
+    '/images/hero.png';
 
   return {
     title: t('title'),

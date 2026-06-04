@@ -15,7 +15,7 @@ export default function About() {
           <div className="about__img-wrap reveal-left">
             <div className="about__img about__img--main">
               <img
-                src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800&q=80&auto=format&fit=crop"
+                src="/images/about-matcha.png"
                 alt=""
                 className="section-img"
                 width={800}
@@ -25,7 +25,7 @@ export default function About() {
             </div>
             <div className="about__img about__img--accent">
               <img
-                src="https://images.unsplash.com/photo-1558869632-81053b328001?w=600&q=80&auto=format&fit=crop"
+                src="/images/about-garden.png"
                 alt=""
                 className="section-img"
                 width={600}

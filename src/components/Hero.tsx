@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="hero" id="hero">
       <div className="hero__bg">
         <img
-          src="https://images.unsplash.com/photo-1566373049939-704ea187ef98?w=1600&q=80&auto=format&fit=crop"
+          src="/images/hero.png"
           alt=""
           className="hero__bg-img"
           width={1600}
