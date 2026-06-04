@@ -15,7 +15,7 @@ export default function About() {
           <div className="about__img-wrap reveal-left">
             <div className="about__img about__img--main">
               <img
-                src="/images/about-matcha.png"
+                src="/images/about-matcha.webp"
                 alt=""
                 className="section-img"
                 width={800}
@@ -25,7 +25,7 @@ export default function About() {
             </div>
             <div className="about__img about__img--accent">
               <img
-                src="/images/about-garden.png"
+                src="/images/about-garden.webp"
                 alt=""
                 className="section-img"
                 width={600}

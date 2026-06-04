@@ -68,7 +68,7 @@
         "sub": "—— 一服",
         "desc": "竹筅でていねいに点てた一碗。一番摘み抹茶の鮮やかな緑と、まろやかな甘みをご堪能ください。",
         "price": "¥ 880",
-        "img": "/images/usucha.png",
+        "img": "/images/usucha.webp",
         "alt": "お薄"
       },
       {
@@ -77,7 +77,7 @@
         "sub": "—— 一服",
         "desc": "通常の3倍の茶葉を使った濃厚な一碗。深い旨味と、長く続く余韻をお楽しみください。",
         "price": "¥ 1,380",
-        "img": "/images/koicha.png",
+        "img": "/images/koicha.webp",
         "alt": "お濃茶"
       },
       {
@@ -86,7 +86,7 @@
         "sub": "—— 温 / 冷",
         "desc": "京都産牛乳と抹茶のやさしいハーモニー。あたたかくも、冷たくもお楽しみいただけます。",
         "price": "¥ 720",
-        "img": "/images/matcha-latte.png",
+        "img": "/images/matcha-latte.webp",
         "alt": "抹茶ラテ"
       },
       {
@@ -95,7 +95,7 @@
         "name": "抹茶パフェ",
         "desc": "抹茶アイス・白玉・あんこ・抹茶ゼリーを重ねた贅沢な一杯。見た目も愛らしく、写真映えも。",
         "price": "¥ 1,480",
-        "img": "/images/matcha-parfait.png",
+        "img": "/images/matcha-parfait.webp",
         "alt": "抹茶パフェ"
       },
       {
@@ -103,7 +103,7 @@
         "name": "わらびもち",
         "desc": "本わらび粉100%。とろけるような食感に、石臼挽き抹茶ときな粉をたっぷりかけて。",
         "price": "¥ 780",
-        "img": "/images/warabi-mochi.png",
+        "img": "/images/warabi-mochi.webp",
         "alt": "わらびもち"
       },
       {
@@ -111,7 +111,7 @@
         "name": "抹茶テリーヌ",
         "desc": "なめらかに口どけする、濃厚な抹茶のテリーヌ。ほろ苦さと甘みのバランスを一切れに。",
         "price": "¥ 680",
-        "img": "/images/matcha-terrine.png",
+        "img": "/images/matcha-terrine.webp",
         "alt": "抹茶テリーヌ"
       },
       {
@@ -121,7 +121,7 @@
         "name": "お抹茶 + 季節の上生菓子",
         "desc": "その日の一番摘み抹茶と、職人の季節の上生菓子のセット。茶席の雰囲気を、気軽に味わえます。",
         "price": "¥ 1,580",
-        "img": "/images/matcha-wagashi-set.png",
+        "img": "/images/matcha-wagashi-set.webp",
         "alt": "お抹茶セット"
       },
       {
@@ -130,7 +130,7 @@
         "name": "自分で点てる抹茶体験",
         "desc": "スタッフがやさしくレクチャー。自分で点てた一碗と季節の和菓子をお召し上がりいただけます（約40分）。",
         "price": "¥ 2,800",
-        "img": "/images/matcha-experience.png",
+        "img": "/images/matcha-experience.webp",
         "alt": "抹茶を点てる体験"
       }
     ]
@@ -152,11 +152,11 @@
     "label": "Gallery",
     "title": "店内の風景",
     "items": [
-      { "img": "/images/veranda.png", "caption": "縁側の席", "large": true },
-      { "img": "/images/courtyard.png", "caption": "坪庭" },
-      { "img": "/images/inner-room.png", "caption": "奥座敷" },
-      { "img": "/images/counter.png", "caption": "カウンター" },
-      { "img": "/images/entrance.png", "caption": "石畳の入口" }
+      { "img": "/images/veranda.webp", "caption": "縁側の席", "large": true },
+      { "img": "/images/courtyard.webp", "caption": "坪庭" },
+      { "img": "/images/inner-room.webp", "caption": "奥座敷" },
+      { "img": "/images/counter.webp", "caption": "カウンター" },
+      { "img": "/images/entrance.webp", "caption": "石畳の入口" }
     ]
   },
   "reviews": {

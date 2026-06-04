@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="hero" id="hero">
       <div className="hero__bg">
         <img
-          src="/images/hero.png"
+          src="/images/hero.webp"
           alt=""
           className="hero__bg-img"
           width={1600}
