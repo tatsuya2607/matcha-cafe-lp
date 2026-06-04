@@ -68,7 +68,7 @@
         "sub": "—— 一服",
         "desc": "竹筅でていねいに点てた一碗。一番摘み抹茶の鮮やかな緑と、まろやかな甘みをご堪能ください。",
         "price": "¥ 880",
-        "img": "https://images.unsplash.com/photo-1575487426366-079595af2247?w=600&q=80&auto=format&fit=crop",
+        "img": "/images/usucha.png",
         "alt": "お薄"
       },
       {
@@ -77,7 +77,7 @@
         "sub": "—— 一服",
         "desc": "通常の3倍の茶葉を使った濃厚な一碗。深い旨味と、長く続く余韻をお楽しみください。",
         "price": "¥ 1,380",
-        "img": "https://images.unsplash.com/photo-1565117661210-fd54898de423?w=600&q=80&auto=format&fit=crop",
+        "img": "/images/koicha.png",
         "alt": "お濃茶"
       },
       {
@@ -86,7 +86,7 @@
         "sub": "—— 温 / 冷",
         "desc": "京都産牛乳と抹茶のやさしいハーモニー。あたたかくも、冷たくもお楽しみいただけます。",
         "price": "¥ 720",
-        "img": "https://images.unsplash.com/photo-1631679263367-9095fca628de?w=600&q=80&auto=format&fit=crop",
+        "img": "/images/matcha-latte.png",
         "alt": "抹茶ラテ"
       },
       {
@@ -95,7 +95,7 @@
         "name": "抹茶パフェ",
         "desc": "抹茶アイス・白玉・あんこ・抹茶ゼリーを重ねた贅沢な一杯。見た目も愛らしく、写真映えも。",
         "price": "¥ 1,480",
-        "img": "https://images.unsplash.com/photo-1634473115412-8fa5b647ef59?w=600&q=80&auto=format&fit=crop",
+        "img": "/images/matcha-parfait.png",
         "alt": "抹茶パフェ"
       },
       {
@@ -103,7 +103,7 @@
         "name": "わらびもち",
         "desc": "本わらび粉100%。とろけるような食感に、石臼挽き抹茶ときな粉をたっぷりかけて。",
         "price": "¥ 780",
-        "img": "https://images.unsplash.com/photo-1649705059757-d648d9504229?w=600&q=80&auto=format&fit=crop",
+        "img": "/images/warabi-mochi.png",
         "alt": "わらびもち"
       },
       {
@@ -111,7 +111,7 @@
         "name": "抹茶テリーヌ",
         "desc": "なめらかに口どけする、濃厚な抹茶のテリーヌ。ほろ苦さと甘みのバランスを一切れに。",
         "price": "¥ 680",
-        "img": "https://images.unsplash.com/photo-1582785513054-8d1bf9d69c1a?w=600&q=80&auto=format&fit=crop",
+        "img": "/images/matcha-terrine.png",
         "alt": "抹茶テリーヌ"
       },
       {
@@ -121,7 +121,7 @@
         "name": "お抹茶 + 季節の上生菓子",
         "desc": "その日の一番摘み抹茶と、職人の季節の上生菓子のセット。茶席の雰囲気を、気軽に味わえます。",
         "price": "¥ 1,580",
-        "img": "https://images.unsplash.com/photo-1727850005779-1e24cac382d4?w=800&q=80&auto=format&fit=crop",
+        "img": "/images/matcha-wagashi-set.png",
         "alt": "お抹茶セット"
       },
       {
@@ -130,7 +130,7 @@
         "name": "自分で点てる抹茶体験",
         "desc": "スタッフがやさしくレクチャー。自分で点てた一碗と季節の和菓子をお召し上がりいただけます（約40分）。",
         "price": "¥ 2,800",
-        "img": "https://images.unsplash.com/photo-1605729988263-7752475299e5?w=600&q=80&auto=format&fit=crop",
+        "img": "/images/matcha-experience.png",
         "alt": "抹茶を点てる体験"
       }
     ]
