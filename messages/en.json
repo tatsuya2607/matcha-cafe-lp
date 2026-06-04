@@ -152,11 +152,11 @@
     "label": "Gallery",
     "title": "Inside the Café",
     "items": [
-      { "img": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1000&q=80&auto=format&fit=crop", "caption": "Veranda seats", "large": true },
-      { "img": "https://images.unsplash.com/photo-1606477338858-2695d3ed5fc9?w=600&q=80&auto=format&fit=crop", "caption": "Courtyard garden" },
-      { "img": "https://images.unsplash.com/photo-1504416285472-eccf03dd31eb?w=600&q=80&auto=format&fit=crop", "caption": "Inner room" },
-      { "img": "https://images.unsplash.com/photo-1568299661475-a4b082595a7a?w=600&q=80&auto=format&fit=crop", "caption": "Counter" },
-      { "img": "https://images.unsplash.com/photo-1432958576632-8a39f6b97dc7?w=600&q=80&auto=format&fit=crop", "caption": "Stone-paved entrance" }
+      { "img": "/images/veranda.png", "caption": "Veranda seats", "large": true },
+      { "img": "/images/courtyard.png", "caption": "Courtyard garden" },
+      { "img": "/images/inner-room.png", "caption": "Inner room" },
+      { "img": "/images/counter.png", "caption": "Counter" },
+      { "img": "/images/entrance.png", "caption": "Stone-paved entrance" }
     ]
   },
   "reviews": {

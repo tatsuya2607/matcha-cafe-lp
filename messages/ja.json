@@ -152,11 +152,11 @@
     "label": "Gallery",
     "title": "店内の風景",
     "items": [
-      { "img": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1000&q=80&auto=format&fit=crop", "caption": "縁側の席", "large": true },
-      { "img": "https://images.unsplash.com/photo-1606477338858-2695d3ed5fc9?w=600&q=80&auto=format&fit=crop", "caption": "坪庭" },
-      { "img": "https://images.unsplash.com/photo-1504416285472-eccf03dd31eb?w=600&q=80&auto=format&fit=crop", "caption": "奥座敷" },
-      { "img": "https://images.unsplash.com/photo-1568299661475-a4b082595a7a?w=600&q=80&auto=format&fit=crop", "caption": "カウンター" },
-      { "img": "https://images.unsplash.com/photo-1432958576632-8a39f6b97dc7?w=600&q=80&auto=format&fit=crop", "caption": "石畳の入口" }
+      { "img": "/images/veranda.png", "caption": "縁側の席", "large": true },
+      { "img": "/images/courtyard.png", "caption": "坪庭" },
+      { "img": "/images/inner-room.png", "caption": "奥座敷" },
+      { "img": "/images/counter.png", "caption": "カウンター" },
+      { "img": "/images/entrance.png", "caption": "石畳の入口" }
     ]
   },
   "reviews": {
