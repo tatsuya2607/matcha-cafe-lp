@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "title": "喫茶みどり | KISSA MIDORI — 京都・祇園の抹茶カフェ",
+    "description": "京都・祇園の和モダン抹茶カフェ「喫茶みどり」。宇治産一番摘み抹茶を使った一服と、温もりのある町家空間。日本語・英語対応、訪日のお客様も歓迎します。"
+  },
+  "language": {
+    "switchTo": "English",
+    "ja": "日本語",
+    "en": "English"
+  },
+  "nav": {
+    "logoJp": "喫茶みどり",
+    "logoEn": "KISSA MIDORI",
+    "about": "店について",
+    "menu": "お品書き",
+    "story": "こだわり",
+    "reviews": "お客様の声",
+    "access": "アクセス",
+    "visit": "ご来店",
+    "menuAria": "メニュー",
+    "mobileAria": "モバイルナビゲーション"
+  },
+  "hero": {
+    "eyebrow": "京都・祇園",
+    "titleJp": "みどり、ひとくち。<br>心、ほどける。",
+    "titleEn": "A Sip of Green, A Moment of Calm",
+    "sub": "宇治の一番摘み抹茶を、町家の縁側でゆっくりと。<br>はじめての方も、抹茶を愛する旅人も、どうぞお気軽に。",
+    "ctaMenu": "お品書きを見る",
+    "ctaVisit": "ご来店案内",
+    "scroll": "Scroll"
+  },
+  "brandBar": [
+    "宇治産一番摘み抹茶",
+    "築120年の町家",
+    "京焼・清水焼の器",
+    "点て方レクチャー無料",
+    "英語対応スタッフ常駐"
+  ],
+  "about": {
+    "label": "About Us",
+    "title": "みどりを、<br>ていねいに。",
+    "lead": "喫茶みどりは、京都・祇園の路地裏にひっそりと佇む抹茶カフェです。",
+    "body1": "「抹茶は、むずかしくない。」その想いから、喫茶みどりは生まれました。宇治の茶農家と直接つながり、その朝に挽いた一番摘み抹茶を、一碗ずつ心を込めてお出しします。",
+    "body2": "築120年の町家を改装した店内には、季節の茶花と、やわらかな木漏れ日。観光のあいまにふらりと立ち寄り、肩の力を抜いていただけるような、そんな居場所でありたいと願っています。",
+    "foundedYear": "2015",
+    "foundedLabel": "創業",
+    "stats": [
+      { "num": "10", "unit": "年", "label": "の歩み" },
+      { "num": "12", "unit": "種", "label": "の抹茶メニュー" },
+      { "num": "4.9", "unit": "★", "label": "お客様評価" }
+    ]
+  },
+  "menu": {
+    "label": "Our Menu",
+    "title": "季節のお品書き",
+    "subtitle": "一番摘み宇治抹茶から生まれる、やさしい美味しさ。",
+    "tabs": {
+      "drinks": "お飲み物",
+      "sweets": "甘味",
+      "set": "抹茶セット"
+    },
+    "note": "季節によりメニューが変わります。アレルギーのある方はスタッフにお申し付けください。価格は税込です。",
+    "items": [
+      {
+        "category": "drinks",
+        "tag": "人気 No.1",
+        "name": "お薄",
+        "sub": "—— 一服",
+        "desc": "竹筅でていねいに点てた一碗。一番摘み抹茶の鮮やかな緑と、まろやかな甘みをご堪能ください。",
+        "price": "¥ 880",
+        "img": "https://images.unsplash.com/photo-1575487426366-079595af2247?w=600&q=80&auto=format&fit=crop",
+        "alt": "お薄"
+      },
+      {
+        "category": "drinks",
+        "name": "お濃茶",
+        "sub": "—— 一服",
+        "desc": "通常の3倍の茶葉を使った濃厚な一碗。深い旨味と、長く続く余韻をお楽しみください。",
+        "price": "¥ 1,380",
+        "img": "https://images.unsplash.com/photo-1565117661210-fd54898de423?w=600&q=80&auto=format&fit=crop",
+        "alt": "お濃茶"
+      },
+      {
+        "category": "drinks",
+        "name": "抹茶ラテ",
+        "sub": "—— 温 / 冷",
+        "desc": "京都産牛乳と抹茶のやさしいハーモニー。あたたかくも、冷たくもお楽しみいただけます。",
+        "price": "¥ 720",
+        "img": "https://images.unsplash.com/photo-1631679263367-9095fca628de?w=600&q=80&auto=format&fit=crop",
+        "alt": "抹茶ラテ"
+      },
+      {
+        "category": "sweets",
+        "tag": "季節限定",
+        "name": "抹茶パフェ",
+        "desc": "抹茶アイス・白玉・あんこ・抹茶ゼリーを重ねた贅沢な一杯。見た目も愛らしく、写真映えも。",
+        "price": "¥ 1,480",
+        "img": "https://images.unsplash.com/photo-1634473115412-8fa5b647ef59?w=600&q=80&auto=format&fit=crop",
+        "alt": "抹茶パフェ"
+      },
+      {
+        "category": "sweets",
+        "name": "わらびもち",
+        "desc": "本わらび粉100%。とろけるような食感に、石臼挽き抹茶ときな粉をたっぷりかけて。",
+        "price": "¥ 780",
+        "img": "https://images.unsplash.com/photo-1649705059757-d648d9504229?w=600&q=80&auto=format&fit=crop",
+        "alt": "わらびもち"
+      },
+      {
+        "category": "sweets",
+        "name": "抹茶テリーヌ",
+        "desc": "なめらかに口どけする、濃厚な抹茶のテリーヌ。ほろ苦さと甘みのバランスを一切れに。",
+        "price": "¥ 680",
+        "img": "https://images.unsplash.com/photo-1582785513054-8d1bf9d69c1a?w=600&q=80&auto=format&fit=crop",
+        "alt": "抹茶テリーヌ"
+      },
+      {
+        "category": "set",
+        "tag": "おすすめ",
+        "featured": true,
+        "name": "お抹茶 + 季節の上生菓子",
+        "desc": "その日の一番摘み抹茶と、職人の季節の上生菓子のセット。茶席の雰囲気を、気軽に味わえます。",
+        "price": "¥ 1,580",
+        "img": "https://images.unsplash.com/photo-1727850005779-1e24cac382d4?w=800&q=80&auto=format&fit=crop",
+        "alt": "お抹茶セット"
+      },
+      {
+        "category": "set",
+        "tag": "体験プラン",
+        "name": "自分で点てる抹茶体験",
+        "desc": "スタッフがやさしくレクチャー。自分で点てた一碗と季節の和菓子をお召し上がりいただけます（約40分）。",
+        "price": "¥ 2,800",
+        "img": "https://images.unsplash.com/photo-1605729988263-7752475299e5?w=600&q=80&auto=format&fit=crop",
+        "alt": "抹茶を点てる体験"
+      }
+    ]
+  },
+  "story": {
+    "label": "Our Story",
+    "title": "宇治から、<br>一碗の物語。",
+    "body1": "毎朝、京都・宇治の茶農家から届く新鮮な茶葉。石臼でゆっくりと挽いた抹茶を、その日のうちに一碗ずつ点てています。",
+    "body2": "茶葉の品質はもちろん、湯の温度、茶碗の温め方、竹筅の動かし方まで——小さな所作のひとつひとつに、「いちばんおいしい一服」への想いを込めています。",
+    "cta": "こだわりを体験する",
+    "steps": [
+      { "num": "01", "title": "茶葉を選ぶ", "desc": "宇治の茶農家から直接仕入れる、一番摘みのてん茶だけを使います。" },
+      { "num": "02", "title": "石臼で挽く", "desc": "毎朝ゆっくりと石臼で挽くことで、香りと旨味を最大限に引き出します。" },
+      { "num": "03", "title": "ていねいに点てる", "desc": "70℃に整えた軟水と竹筅で、きめ細かでなめらかな泡を立てます。" },
+      { "num": "04", "title": "器に注ぐ", "desc": "京焼・清水焼の職人が手がけた茶碗に、大切にお注ぎします。" }
+    ]
+  },
+  "gallery": {
+    "label": "Gallery",
+    "title": "店内の風景",
+    "items": [
+      { "img": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1000&q=80&auto=format&fit=crop", "caption": "縁側の席", "large": true },
+      { "img": "https://images.unsplash.com/photo-1606477338858-2695d3ed5fc9?w=600&q=80&auto=format&fit=crop", "caption": "坪庭" },
+      { "img": "https://images.unsplash.com/photo-1504416285472-eccf03dd31eb?w=600&q=80&auto=format&fit=crop", "caption": "奥座敷" },
+      { "img": "https://images.unsplash.com/photo-1568299661475-a4b082595a7a?w=600&q=80&auto=format&fit=crop", "caption": "カウンター" },
+      { "img": "https://images.unsplash.com/photo-1432958576632-8a39f6b97dc7?w=600&q=80&auto=format&fit=crop", "caption": "石畳の入口" }
+    ]
+  },
+  "reviews": {
+    "label": "Reviews",
+    "title": "お客様の声",
+    "items": [
+      {
+        "text": "こんなにやさしい抹茶ははじめてでした。竹筅で点てていただいた一服は、苦みと旨味のバランスが絶妙で、目を閉じると静かな茶室にいるような気持ちに。",
+        "name": "田中 美咲 さん",
+        "meta": "東京・30代"
+      },
+      {
+        "text": "京都を訪れたら必ず立ち寄ります。空間の美しさはもちろん、スタッフの方の心づかいが本当に素敵。抹茶パフェは絶品でした!",
+        "name": "Sarah M. さん",
+        "meta": "アメリカ・40代"
+      },
+      {
+        "text": "抹茶を点てる体験がとても楽しかったです。やさしく教えてくださり、自分で点てた一碗は格別。大切な人へのおすすめにもぴったり。",
+        "name": "山本 健一 さん",
+        "meta": "大阪・50代"
+      }
+    ]
+  },
+  "visit": {
+    "label": "Visit Us",
+    "title": "ふらりと、<br>お立ち寄りください。",
+    "sub": "ご予約は承っておりません。気の向いたときに、どうぞそのままお越しください。<br class=\"pc-only\">満席の際は少しお待ちいただくことがございます。",
+    "phoneLabel": "お問い合わせ",
+    "phone": "075-000-0000",
+    "instagram": "Instagramを見る",
+    "note": "営業時間 11:00〜18:00（最終入店 17:30）　定休日 火曜日"
+  },
+  "access": {
+    "label": "Access",
+    "title": "アクセス",
+    "details": [
+      { "term": "住所", "desc": "〒605-0073<br>京都府京都市東山区祇園町南側 xxx-x<br>（祇園四条駅より徒歩5分）" },
+      { "term": "電話", "desc": "075-000-0000", "tel": "075-000-0000" },
+      { "term": "営業時間", "desc": "11:00〜18:00（L.O. 17:30）" },
+      { "term": "定休日", "desc": "火曜日<br>（年末年始・お盆期間は変動あり）" },
+      { "term": "駐車場", "desc": "なし（近隣にコインパーキングあり）" }
+    ],
+    "transport": [
+      { "icon": "🚃", "title": "電車", "desc": "京阪「祇園四条」駅 6番出口より徒歩5分<br>阪急「京都河原町」駅 1A出口より徒歩8分" },
+      { "icon": "🚌", "title": "バス", "desc": "市バス「祇園」停留所より徒歩2分" }
+    ],
+    "mapText": "Google マップで開く",
+    "mapCta": "大きな地図で見る",
+    "mapUrl": "https://maps.google.com/?q=祇園,京都",
+    "mapEmbed": "https://maps.google.com/maps?q=%E7%A5%87%E5%9C%92%2C%E4%BA%AC%E9%83%BD&z=15&output=embed",
+    "mapTitle": "喫茶みどりの地図"
+  },
+  "footer": {
+    "tagline": "みどり、ひとくち。心、ほどける。",
+    "colMenu": "メニュー",
+    "colInfo": "ご来店情報",
+    "colSns": "SNS",
+    "info": {
+      "hours": "営業 11:00〜18:00",
+      "closed": "定休 火曜日"
+    },
+    "rights": "© 2015–2026 喫茶みどり KISSA MIDORI. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "legal": "特定商取引法に基づく表記"
+  }
+}

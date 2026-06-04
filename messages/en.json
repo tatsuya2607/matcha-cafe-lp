@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "title": "KISSA MIDORI | 喫茶みどり — Matcha Café in Gion, Kyoto",
+    "description": "Kissa Midori is a warm, wa-modern matcha café in Gion, Kyoto. First-harvest Uji matcha served in a 120-year-old machiya townhouse. English-speaking staff — travelers welcome."
+  },
+  "language": {
+    "switchTo": "日本語",
+    "ja": "日本語",
+    "en": "English"
+  },
+  "nav": {
+    "logoJp": "喫茶みどり",
+    "logoEn": "KISSA MIDORI",
+    "about": "About",
+    "menu": "Menu",
+    "story": "Craft",
+    "reviews": "Reviews",
+    "access": "Access",
+    "visit": "Visit",
+    "menuAria": "Menu",
+    "mobileAria": "Mobile navigation"
+  },
+  "hero": {
+    "eyebrow": "Gion, Kyoto",
+    "titleJp": "A Sip of Green,<br>A Moment of Calm.",
+    "titleEn": "みどり、ひとくち。心、ほどける。",
+    "sub": "First-harvest Uji matcha, served slowly on a townhouse veranda.<br>Whether it's your first bowl or your hundredth — you're always welcome.",
+    "ctaMenu": "See the Menu",
+    "ctaVisit": "Plan Your Visit",
+    "scroll": "Scroll"
+  },
+  "brandBar": [
+    "First-harvest Uji matcha",
+    "120-year-old machiya",
+    "Kyoto-ware bowls",
+    "Free whisking lesson",
+    "English-speaking staff"
+  ],
+  "about": {
+    "label": "About Us",
+    "title": "Green,<br>made with care.",
+    "lead": "Kissa Midori is a small matcha café tucked into a quiet lane in Gion, Kyoto.",
+    "body1": "\"Matcha doesn't have to be difficult.\" That belief is where Kissa Midori began. We work directly with Uji tea farmers and serve first-harvest matcha — stone-ground that very morning — one bowl at a time.",
+    "body2": "Set in a restored 120-year-old machiya townhouse, the room is filled with seasonal tea flowers and soft, dappled light. Drop in between sightseeing, let your shoulders drop, and stay as long as you like.",
+    "foundedYear": "2015",
+    "foundedLabel": "Since",
+    "stats": [
+      { "num": "10", "unit": "yrs", "label": "of brewing" },
+      { "num": "12", "unit": "kinds", "label": "of matcha" },
+      { "num": "4.9", "unit": "★", "label": "guest rating" }
+    ]
+  },
+  "menu": {
+    "label": "Our Menu",
+    "title": "Seasonal Menu",
+    "subtitle": "Gentle flavors, all born from first-harvest Uji matcha.",
+    "tabs": {
+      "drinks": "Drinks",
+      "sweets": "Sweets",
+      "set": "Matcha Sets"
+    },
+    "note": "Menu changes with the seasons. Please let our staff know about any allergies. All prices include tax.",
+    "items": [
+      {
+        "category": "drinks",
+        "tag": "No.1",
+        "name": "Usucha",
+        "sub": "—— thin matcha",
+        "desc": "A bowl whisked by hand with a bamboo chasen. Savor the vivid green and mellow sweetness of first-harvest matcha.",
+        "price": "¥ 880",
+        "img": "https://images.unsplash.com/photo-1575487426366-079595af2247?w=600&q=80&auto=format&fit=crop",
+        "alt": "Usucha thin matcha"
+      },
+      {
+        "category": "drinks",
+        "name": "Koicha",
+        "sub": "—— thick matcha",
+        "desc": "Three times the usual tea leaves for a rich, concentrated bowl with deep umami and a long finish.",
+        "price": "¥ 1,380",
+        "img": "https://images.unsplash.com/photo-1565117661210-fd54898de423?w=600&q=80&auto=format&fit=crop",
+        "alt": "Koicha thick matcha"
+      },
+      {
+        "category": "drinks",
+        "name": "Matcha Latte",
+        "sub": "—— hot / iced",
+        "desc": "A gentle harmony of Kyoto milk and matcha. Enjoy it warm, or over ice.",
+        "price": "¥ 720",
+        "img": "https://images.unsplash.com/photo-1631679263367-9095fca628de?w=600&q=80&auto=format&fit=crop",
+        "alt": "Matcha latte"
+      },
+      {
+        "category": "sweets",
+        "tag": "Seasonal",
+        "name": "Matcha Parfait",
+        "desc": "Layers of matcha ice cream, shiratama mochi, sweet red bean, and matcha jelly. As lovely to look at as it is to eat.",
+        "price": "¥ 1,480",
+        "img": "https://images.unsplash.com/photo-1634473115412-8fa5b647ef59?w=600&q=80&auto=format&fit=crop",
+        "alt": "Matcha parfait"
+      },
+      {
+        "category": "sweets",
+        "name": "Warabi Mochi",
+        "desc": "Made with 100% real bracken starch. A melt-in-the-mouth texture, dusted generously with stone-ground matcha and kinako.",
+        "price": "¥ 780",
+        "img": "https://images.unsplash.com/photo-1649705059757-d648d9504229?w=600&q=80&auto=format&fit=crop",
+        "alt": "Warabi mochi"
+      },
+      {
+        "category": "sweets",
+        "name": "Matcha Terrine",
+        "desc": "A smooth, rich matcha terrine that melts on the tongue — the perfect balance of bittersweet in a single slice.",
+        "price": "¥ 680",
+        "img": "https://images.unsplash.com/photo-1582785513054-8d1bf9d69c1a?w=600&q=80&auto=format&fit=crop",
+        "alt": "Matcha terrine"
+      },
+      {
+        "category": "set",
+        "tag": "Recommended",
+        "featured": true,
+        "name": "Matcha + Seasonal Wagashi",
+        "desc": "The day's first-harvest matcha paired with an artisan's seasonal wagashi sweet. A taste of the tea ceremony, made easy.",
+        "price": "¥ 1,580",
+        "img": "https://images.unsplash.com/photo-1727850005779-1e24cac382d4?w=800&q=80&auto=format&fit=crop",
+        "alt": "Matcha set with wagashi"
+      },
+      {
+        "category": "set",
+        "tag": "Experience",
+        "name": "Whisk-Your-Own Matcha",
+        "desc": "Our staff will gently guide you. Whisk your own bowl and enjoy it with a seasonal Japanese sweet (about 40 min).",
+        "price": "¥ 2,800",
+        "img": "https://images.unsplash.com/photo-1605729988263-7752475299e5?w=600&q=80&auto=format&fit=crop",
+        "alt": "Whisking matcha experience"
+      }
+    ]
+  },
+  "story": {
+    "label": "Our Story",
+    "title": "From Uji,<br>the story of a bowl.",
+    "body1": "Every morning, fresh tea leaves arrive from farmers in Uji, Kyoto. We stone-grind the matcha and whisk it, bowl by bowl, that very same day.",
+    "body2": "It isn't only the quality of the leaves. The water temperature, the warming of the bowl, the motion of the whisk — every small gesture carries our wish for the most delicious bowl possible.",
+    "cta": "Experience the craft",
+    "steps": [
+      { "num": "01", "title": "Selecting the leaves", "desc": "Only first-harvest tencha, sourced directly from Uji tea farmers." },
+      { "num": "02", "title": "Stone-grinding", "desc": "Slowly ground on a stone mill each morning to draw out aroma and umami." },
+      { "num": "03", "title": "Whisking with care", "desc": "Soft water at 70°C and a bamboo whisk create a fine, smooth foam." },
+      { "num": "04", "title": "Pouring the bowl", "desc": "Served with care in bowls crafted by Kyoto-ware artisans." }
+    ]
+  },
+  "gallery": {
+    "label": "Gallery",
+    "title": "Inside the Café",
+    "items": [
+      { "img": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1000&q=80&auto=format&fit=crop", "caption": "Veranda seats", "large": true },
+      { "img": "https://images.unsplash.com/photo-1606477338858-2695d3ed5fc9?w=600&q=80&auto=format&fit=crop", "caption": "Courtyard garden" },
+      { "img": "https://images.unsplash.com/photo-1504416285472-eccf03dd31eb?w=600&q=80&auto=format&fit=crop", "caption": "Inner room" },
+      { "img": "https://images.unsplash.com/photo-1568299661475-a4b082595a7a?w=600&q=80&auto=format&fit=crop", "caption": "Counter" },
+      { "img": "https://images.unsplash.com/photo-1432958576632-8a39f6b97dc7?w=600&q=80&auto=format&fit=crop", "caption": "Stone-paved entrance" }
+    ]
+  },
+  "reviews": {
+    "label": "Reviews",
+    "title": "Guest Voices",
+    "items": [
+      {
+        "text": "The gentlest matcha I've ever had. The bowl they whisked by hand had a perfect balance of bitter and umami — close your eyes and you're in a quiet tea room.",
+        "name": "Misaki Tanaka",
+        "meta": "Tokyo, 30s"
+      },
+      {
+        "text": "I stop by every time I'm in Kyoto. The space is beautiful, and the staff's hospitality is truly special. The matcha parfait was incredible!",
+        "name": "Sarah M.",
+        "meta": "USA, 40s"
+      },
+      {
+        "text": "The whisk-your-own experience was so much fun. They taught me kindly, and the bowl I made myself was extraordinary. Perfect to recommend to someone special.",
+        "name": "Kenichi Yamamoto",
+        "meta": "Osaka, 50s"
+      }
+    ]
+  },
+  "visit": {
+    "label": "Visit Us",
+    "title": "Just drop by,<br>whenever you like.",
+    "sub": "We don't take reservations — simply come as you are.<br class=\"pc-only\">If we're full, there may be a short wait for a seat.",
+    "phoneLabel": "Enquiries",
+    "phone": "075-000-0000",
+    "instagram": "Follow on Instagram",
+    "note": "Open 11:00–18:00 (last entry 17:30) · Closed Tuesdays"
+  },
+  "access": {
+    "label": "Access",
+    "title": "Access",
+    "details": [
+      { "term": "Address", "desc": "605-0073<br>xxx-x Gion-machi Minamigawa, Higashiyama-ku, Kyoto<br>(5 min from Gion-Shijo Station)" },
+      { "term": "Phone", "desc": "075-000-0000", "tel": "075-000-0000" },
+      { "term": "Hours", "desc": "11:00–18:00 (L.O. 17:30)" },
+      { "term": "Closed", "desc": "Tuesdays<br>(holidays may vary)" },
+      { "term": "Parking", "desc": "None (coin parking nearby)" }
+    ],
+    "transport": [
+      { "icon": "🚃", "title": "By train", "desc": "5 min from Keihan Gion-Shijo Stn (Exit 6)<br>8 min from Hankyu Kyoto-Kawaramachi Stn (Exit 1A)" },
+      { "icon": "🚌", "title": "By bus", "desc": "2 min from the city bus \"Gion\" stop" }
+    ],
+    "mapText": "Open in Google Maps",
+    "mapCta": "View larger map",
+    "mapUrl": "https://maps.google.com/?q=Gion,Kyoto",
+    "mapEmbed": "https://maps.google.com/maps?q=Gion%2CKyoto&z=15&output=embed&hl=en",
+    "mapTitle": "Map to Kissa Midori"
+  },
+  "footer": {
+    "tagline": "A sip of green, a moment of calm.",
+    "colMenu": "Menu",
+    "colInfo": "Visiting",
+    "colSns": "Social",
+    "info": {
+      "hours": "Open 11:00–18:00",
+      "closed": "Closed Tuesdays"
+    },
+    "rights": "© 2015–2026 Kissa Midori 喫茶みどり. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "legal": "Legal Notice"
+  }
+}
