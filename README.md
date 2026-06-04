@@ -43,10 +43,13 @@ information / brand site focused on atmosphere, craft, and conversion to an in-p
 - ✨ **Crafted micro-interactions** — scroll-reveal animations, an animated count-up for
   stats, a slow hero pan, a scroll-progress bar, and a subtle film-grain texture.
 - 🗺️ **Embedded Google Map** that renders immediately (no click required).
+- 📸 **All-original imagery** — every photo (menu, interior, hero) is a custom asset,
+  served as resized WebP from `public/images`.
 - ♿ **Accessible & resilient** — keyboard focus styles, ARIA labels, and full
   `prefers-reduced-motion` support.
-- ⚡ **Fast by default** — statically generated per locale (SSG), optimized fonts via
-  `next/font`, and an SEO/Open Graph metadata layer.
+- ⚡ **Fast by default** — statically generated per locale (SSG), optimized WebP imagery
+  (source PNGs ~40 MB → ~1.7 MB), optimized fonts via `next/font`, and an SEO / Open Graph
+  metadata layer.
 
 ### Tech stack
 
@@ -86,6 +89,8 @@ src/
                            # Reviews, Visit, Access, Footer, …
   i18n/                    # next-intl routing / request config
   middleware.ts           # locale negotiation & redirects
+public/
+  images/                 # all site photos as optimized WebP + og.jpg
 messages/
   ja.json                 # 🇯🇵 all Japanese copy & content data
   en.json                 # 🇺🇸 all English copy & content data
@@ -94,9 +99,14 @@ messages/
 ### Editing content
 
 All text and menu / review / gallery data live in `messages/ja.json` and `messages/en.json`.
-Keep both files in sync (identical keys). Images currently use Unsplash URLs — drop your own
-photos into `public/` and reference them as `/your-image.jpg`. The map location is set via
-the `access.mapEmbed` query in each message file.
+Keep both files in sync (identical keys). The map location is set via the `access.mapEmbed`
+query in each message file.
+
+All imagery lives in `public/images` as WebP. To swap a photo, replace the file (keeping the
+same name) or add a new one and update its path — menu / gallery paths in the message files,
+and the hero / about / OG images directly in `src/components/Hero.tsx`, `src/components/About.tsx`
+and `src/app/[locale]/layout.tsx`. Source images were converted and resized to WebP with
+[`sharp`](https://sharp.pixelplumbing.com/) (a 1200×630 `og.jpg` is generated for social sharing).
 
 ---
 
@@ -123,8 +133,11 @@ the `access.mapEmbed` query in each message file.
 - ✨ **作り込んだ演出** — スクロールリビール、数値カウントアップ、ヒーローのゆるやかなパン、
   スクロール進捗バー、フィルムグレインの質感。
 - 🗺️ **Googleマップ埋め込み** — クリック不要で最初から地図を表示。
+- 📸 **全画像がオリジナル** — メニュー・店内・ヒーローの写真はすべて自前素材で、
+  `public/images` からリサイズ済みWebPとして配信。
 - ♿ **アクセシビリティ配慮** — キーボードフォーカス、ARIAラベル、`prefers-reduced-motion` 対応。
-- ⚡ **高速** — ロケール別の静的生成（SSG）、`next/font` によるフォント最適化、SEO/OGメタ対応。
+- ⚡ **高速** — ロケール別の静的生成（SSG）、WebP最適化画像（元PNG約40MB → 約1.7MB）、
+  `next/font` によるフォント最適化、SEO/OGメタ対応。
 
 ### 技術スタック
 
@@ -164,6 +177,8 @@ src/
                            # Reviews, Visit, Access, Footer ほか
   i18n/                    # next-intl のルーティング/リクエスト設定
   middleware.ts           # ロケール判定・リダイレクト
+public/
+  images/                 # サイトの全写真（最適化済みWebP）+ og.jpg
 messages/
   ja.json                 # 🇯🇵 日本語の文言・コンテンツデータ
   en.json                 # 🇺🇸 英語の文言・コンテンツデータ
@@ -172,9 +187,14 @@ messages/
 ### コンテンツの編集
 
 文言・メニュー・レビュー・ギャラリーのデータはすべて `messages/ja.json` と
-`messages/en.json` にあります（キーは両ファイルで一致させてください）。画像は現在 Unsplash の
-URL を使用しているため、`public/` に自前の写真を置いて `/your-image.jpg` で参照してください。
-地図の位置は各メッセージファイルの `access.mapEmbed` のクエリで指定できます。
+`messages/en.json` にあります（キーは両ファイルで一致させてください）。地図の位置は各メッセージ
+ファイルの `access.mapEmbed` のクエリで指定できます。
+
+画像はすべて `public/images` にWebPで格納しています。差し替えるときは、同名のファイルを置き換える
+か、新しい画像を追加してパスを更新してください（メニュー・ギャラリーはメッセージファイル、
+ヒーロー・About・OGP画像は `src/components/Hero.tsx`・`src/components/About.tsx`・
+`src/app/[locale]/layout.tsx` を直接編集）。元画像は [`sharp`](https://sharp.pixelplumbing.com/)
+でWebPへ変換・リサイズしています（SNSシェア用に 1200×630 の `og.jpg` も生成）。
 
 ---
 
