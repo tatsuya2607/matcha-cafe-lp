@@ -20,13 +20,13 @@ export default function Hero() {
       </div>
 
       <div className="hero__content">
-        <p className="hero__eyebrow reveal">{t('eyebrow')}</p>
-        <h1 className="hero__title reveal">
+        <p className="hero__eyebrow hero-in">{t('eyebrow')}</p>
+        <h1 className="hero__title hero-in">
           <Html as="span" className="hero__title-jp" text={t.raw('titleJp')} />
           <span className="hero__title-en">{t('titleEn')}</span>
         </h1>
-        <Html as="p" className="hero__sub reveal" text={t.raw('sub')} />
-        <div className="hero__cta reveal">
+        <Html as="p" className="hero__sub hero-in" text={t.raw('sub')} />
+        <div className="hero__cta hero-in">
           <a href="#menu" className="btn btn--primary">
             {t('ctaMenu')}
           </a>

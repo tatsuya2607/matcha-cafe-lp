@@ -8,6 +8,7 @@ import Story from '@/components/Story';
 import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import Visit from '@/components/Visit';
+import Contact from '@/components/Contact';
 import Access from '@/components/Access';
 import Footer from '@/components/Footer';
 
@@ -31,6 +32,7 @@ export default async function Home({
         <Gallery />
         <Reviews />
         <Visit />
+        <Contact />
         <Access />
       </main>
       <Footer />

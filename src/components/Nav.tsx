@@ -13,7 +13,8 @@ export default function Nav() {
     { href: '#menu', label: t('menu') },
     { href: '#story', label: t('story') },
     { href: '#reviews', label: t('reviews') },
-    { href: '#access', label: t('access') }
+    { href: '#access', label: t('access') },
+    { href: '#contact', label: t('contact') }
   ];
 
   return (

@@ -27,7 +27,7 @@ export default function Visit() {
             {t('phone')}
           </a>
           <a
-            href="https://instagram.com"
+            href={t('instagramUrl')}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn--primary-light"

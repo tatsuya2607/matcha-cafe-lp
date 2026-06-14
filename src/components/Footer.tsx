@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 export default function Footer() {
   const t = useTranslations();
@@ -7,6 +8,12 @@ export default function Footer() {
 
   const details = t.raw('access.details') as { tel?: string; desc: string }[];
   const phone = details.find((d) => d.tel);
+
+  const sns = [
+    { href: f('sns.instagram'), label: 'Instagram' },
+    { href: f('sns.x'), label: 'X (Twitter)' },
+    { href: f('sns.facebook'), label: 'Facebook' }
+  ];
 
   const menuLinks = [
     { href: '#about', label: nav('about') },
@@ -52,31 +59,26 @@ export default function Footer() {
           <div className="footer__col">
             <h4>{f('colSns')}</h4>
             <ul>
-              <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                  Instagram
-                </a>
-              </li>
-              <li>
-                <a href="https://x.com" target="_blank" rel="noopener noreferrer">
-                  X (Twitter)
-                </a>
-              </li>
-              <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                  Facebook
-                </a>
-              </li>
+              {sns.map((s) => (
+                <li key={s.label}>
+                  <a href={s.href} target="_blank" rel="noopener noreferrer">
+                    {s.label}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
       </div>
 
       <div className="footer__bottom">
-        <p>{f('rights')}</p>
+        <div className="footer__bottom-text">
+          <p>{f('rights')}</p>
+          <p className="footer__demo-note">{f('demoNote')}</p>
+        </div>
         <div className="footer__legal">
-          <a href="#">{f('privacy')}</a>
-          <a href="#">{f('legal')}</a>
+          <Link href="/privacy">{f('privacy')}</Link>
+          <Link href="/legal">{f('legal')}</Link>
         </div>
       </div>
     </footer>

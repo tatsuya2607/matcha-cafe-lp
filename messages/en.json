@@ -16,6 +16,7 @@
     "story": "Craft",
     "reviews": "Reviews",
     "access": "Access",
+    "contact": "Contact",
     "visit": "Visit",
     "menuAria": "Menu",
     "mobileAria": "Mobile navigation"
@@ -185,16 +186,35 @@
     "title": "Just drop by,<br>whenever you like.",
     "sub": "We don't take reservations — simply come as you are.<br class=\"pc-only\">If we're full, there may be a short wait for a seat.",
     "phoneLabel": "Enquiries",
-    "phone": "075-000-0000",
+    "phone": "075-708-2015",
     "instagram": "Follow on Instagram",
+    "instagramUrl": "https://www.instagram.com/kissa_midori/",
     "note": "Open 11:00–18:00 (last entry 17:30) · Closed Tuesdays"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Get in touch",
+    "sub": "Questions, press, or private bookings — we'd love to hear from you.<br class=\"pc-only\">We'll reply within three business days.",
+    "name": "Name",
+    "namePlaceholder": "Jane Doe",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "message": "Message",
+    "messagePlaceholder": "Tell us how we can help",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "success": "Thanks — we'll get back to you within three business days.",
+    "error": "Something went wrong. Please try again in a little while.",
+    "unconfigured": "※ This is a demo, so delivery is not wired up (the form UI and validation still work).",
+    "privacyNote": "By sending, you agree to our Privacy Policy.",
+    "subject": "Kissa Midori — enquiry from the website"
   },
   "access": {
     "label": "Access",
     "title": "Access",
     "details": [
-      { "term": "Address", "desc": "605-0073<br>xxx-x Gion-machi Minamigawa, Higashiyama-ku, Kyoto<br>(5 min from Gion-Shijo Station)" },
-      { "term": "Phone", "desc": "075-000-0000", "tel": "075-000-0000" },
+      { "term": "Address", "desc": "605-0073<br>570-123 Gion-machi Minamigawa, Higashiyama-ku, Kyoto<br>(5 min from Gion-Shijo Station)" },
+      { "term": "Phone", "desc": "075-708-2015", "tel": "075-708-2015" },
       { "term": "Hours", "desc": "11:00–18:00 (L.O. 17:30)" },
       { "term": "Closed", "desc": "Tuesdays<br>(holidays may vary)" },
       { "term": "Parking", "desc": "None (coin parking nearby)" }
@@ -218,8 +238,49 @@
       "hours": "Open 11:00–18:00",
       "closed": "Closed Tuesdays"
     },
+    "sns": {
+      "instagram": "https://www.instagram.com/kissa_midori/",
+      "x": "https://x.com/kissa_midori",
+      "facebook": "https://www.facebook.com/kissamidori"
+    },
     "rights": "© 2015–2026 Kissa Midori 喫茶みどり. All rights reserved.",
     "privacy": "Privacy Policy",
-    "legal": "Legal Notice"
+    "legal": "Legal Notice",
+    "demoNote": "※ This is a portfolio demo landing page for a fictional café."
+  },
+  "legalPages": {
+    "backHome": "Back to home",
+    "demoNote": "※ This page is a portfolio demo for a fictional café and does not represent a real business or transactions.",
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "Last updated: June 1, 2026",
+      "intro": "Kissa Midori (\"we\", \"the café\") sets out the following privacy policy to handle your personal information appropriately.",
+      "sections": [
+        { "heading": "1. Information we collect", "body": ["Through the contact form, we collect your name, email address, and the content of your enquiry."] },
+        { "heading": "2. Purpose of use", "body": ["We use the collected information solely to reply to and follow up on your enquiry, and for no other purpose."] },
+        { "heading": "3. Disclosure to third parties", "body": ["Except as required by law, we do not provide your personal information to third parties without your consent."] },
+        { "heading": "4. Analytics", "body": ["This site may use analytics tools to improve the experience. The data collected does not include personally identifiable information."] },
+        { "heading": "5. Contact", "body": ["For questions about this policy, please reach us through the contact form on this site."] },
+        { "heading": "6. Revisions", "body": ["We may update this policy as needed without prior notice. Changes take effect once posted on this page."] }
+      ]
+    },
+    "legal": {
+      "title": "Legal Notice",
+      "updated": "Last updated: June 1, 2026",
+      "intro": "The following is provided in accordance with Japan's Act on Specified Commercial Transactions.",
+      "rows": [
+        { "term": "Business name", "desc": "Kissa Midori" },
+        { "term": "Operations manager", "desc": "Midori Nakamura" },
+        { "term": "Address", "desc": "570-123 Gion-machi Minamigawa, Higashiyama-ku, Kyoto 605-0073" },
+        { "term": "Phone", "desc": "075-708-2015 (11:00–18:00, closed Tuesdays)" },
+        { "term": "Email", "desc": "Please contact us via the form on this site" },
+        { "term": "Opening hours", "desc": "11:00–18:00 (L.O. 17:30)" },
+        { "term": "Prices", "desc": "As listed on the menu (all prices include tax)" },
+        { "term": "Additional fees", "desc": "None (dine-in service)" },
+        { "term": "Payment methods", "desc": "Cash, major credit cards, and e-money (paid in store)" },
+        { "term": "Timing of service", "desc": "Provided at the time of your visit" },
+        { "term": "Returns / cancellations", "desc": "Due to the nature of the products, no returns or cancellations are accepted after service" }
+      ]
+    }
   }
 }
