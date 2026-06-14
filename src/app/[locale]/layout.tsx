@@ -18,7 +18,10 @@ const cormorant = Cormorant_Garamond({
 const notoSerifJp = Noto_Serif_JP({
   weight: ['300', '400', '500'],
   variable: '--font-serif-jp',
-  display: 'swap',
+  // 'optional' keeps the system-serif fallback when the (heavy, CJK) web font
+  // can't arrive in the block window, so the hero headline's LCP isn't delayed
+  // by a late font swap on slow connections. Cached visits use the real font.
+  display: 'optional',
   preload: false,
   fallback: ['serif']
 });
