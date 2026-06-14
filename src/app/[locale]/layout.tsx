@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
-import { Cormorant_Garamond, Noto_Serif_JP, Noto_Sans_JP } from 'next/font/google';
+import { Cormorant_Garamond } from 'next/font/google';
+import localFont from 'next/font/local';
 import { routing, type Locale } from '@/i18n/routing';
 import SiteEffects from '@/components/SiteEffects';
 import '../globals.css';
@@ -15,22 +16,30 @@ const cormorant = Cormorant_Garamond({
   display: 'swap'
 });
 
-const notoSerifJp = Noto_Serif_JP({
-  weight: ['300', '400', '500'],
+// Self-hosted, glyph-subset Noto JP (see scripts/subset-fonts.py). Subsetting to
+// the glyphs this site actually renders collapses next/font's 600+ unicode-range
+// @font-face chunks into one file per weight, which the throttled mobile profile
+// handles far better than the full CJK families.
+const notoSerifJp = localFont({
+  src: [
+    { path: '../fonts/NotoSerifJP-300.woff2', weight: '300', style: 'normal' },
+    { path: '../fonts/NotoSerifJP-400.woff2', weight: '400', style: 'normal' },
+    { path: '../fonts/NotoSerifJP-500.woff2', weight: '500', style: 'normal' }
+  ],
   variable: '--font-serif-jp',
-  // 'optional' keeps the system-serif fallback when the (heavy, CJK) web font
-  // can't arrive in the block window, so the hero headline's LCP isn't delayed
-  // by a late font swap on slow connections. Cached visits use the real font.
+  // 'optional' keeps the system-serif fallback if the web font can't arrive in
+  // the block window, so the hero headline's LCP isn't delayed by a late swap.
   display: 'optional',
-  preload: false,
   fallback: ['serif']
 });
 
-const notoSansJp = Noto_Sans_JP({
-  weight: ['300', '400'],
+const notoSansJp = localFont({
+  src: [
+    { path: '../fonts/NotoSansJP-300.woff2', weight: '300', style: 'normal' },
+    { path: '../fonts/NotoSansJP-400.woff2', weight: '400', style: 'normal' }
+  ],
   variable: '--font-sans-jp',
   display: 'swap',
-  preload: false,
   fallback: ['sans-serif']
 });
 

@@ -9,4 +9,7 @@
 *.tsbuildinfo
 next-env.d.ts
 
+# Cached full source fonts for scripts/subset-fonts.py (subset output is committed)
+/.fontcache
+
 .vercel
