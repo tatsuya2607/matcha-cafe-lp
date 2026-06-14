@@ -9,10 +9,12 @@ export default function Hero() {
       <div className="hero__bg">
         <img
           src="/images/hero.webp"
+          srcSet="/images/hero-800.webp 800w, /images/hero-1280.webp 1280w, /images/hero.webp 1672w"
+          sizes="100vw"
           alt=""
           className="hero__bg-img"
-          width={1600}
-          height={1067}
+          width={1672}
+          height={941}
           fetchPriority="high"
         />
         <div className="hero__overlay" />
